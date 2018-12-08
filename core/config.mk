@@ -1085,8 +1085,4 @@ include $(BUILD_SYSTEM)/ninja_config.mk
 include $(BUILD_SYSTEM)/soong_config.mk
 endif
 
-ifeq ($(SIMPLIX_BUILD),)
-
-include $(BUILD_SYSTEM)/dumpvar.mk
-
-endif
+#include $(BUILD_SYSTEM)/dumpvar.mk
